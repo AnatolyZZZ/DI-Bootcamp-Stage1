@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+    padding: 10px;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    background-color: white;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.left #menu {
+    border-radius: 50%;
+    padding: 10px;
+}
+.left #menu:hover {
+    background-color: #b7b7b7;
+}
+
+.search {
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search form {
+    display: flex;
+    border: 1px solid #ddd;
+    height: 45px;
+    border-radius: 20px;
+    padding-left: 20px;
+    overflow: hidden;
+    align-items: center;
+    width: calc(100% - 50px);
+    justify-content: space-between;
+}
+
+.form-end {
+    height: 100%;
+}
+
+
+
+/* have to play with width of this element */
+.search input {
+    display: flex;
+    padding: 10px;
+    border: 0;
+    height: 100%;
+
+}
+
+input:focus {
+    outline: none;
+    border: 1px solid #ddd;
+  }
+
+.search button {
+    height: 100%;
+    width: 60px;
+    border: none;
+}
+.mic {
+    border-radius: 50%;
+    background-color: #efefef;
+    padding: 10px;
+}
+
+
+main {
+    height: 100vh;
+    display: flex;
+    background-color: #f9f9f9;
+}
+.side-bar {
+    height: 100%;
+    width: 70px;
+    background-color: white;
+    overflow-y: hidden;
+}
+@media (max-width: 768px) {
+    .side-bar {
+        display: none;
+    }
+
+}
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 1,
+    'wght' 200,
+    'GRAD' -25,
+    'opsz' 48;
+    color: rgb(100, 100, 100);
+    cursor: pointer;
+  }
