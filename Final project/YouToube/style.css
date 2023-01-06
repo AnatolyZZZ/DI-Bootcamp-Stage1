@@ -62,9 +62,6 @@ header {
     align-items: center;
 }
 
-
-
-/* have to play with width of this element */
 .search input {
     display: flex;
     padding: 10px;
