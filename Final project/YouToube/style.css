@@ -159,6 +159,7 @@ main {
     flex-direction: column;
     background-color: white;
     margin-right: 20px;
+    transition: ease 1s;
 }
 
 .video:hover {
