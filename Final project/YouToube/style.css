@@ -83,7 +83,7 @@ input:focus {
 }
 .mic {
     border-radius: 50%;
-    background-color: #efefef;
+    background-color:#efefef;
     padding: 10px;
 }
 
@@ -91,7 +91,7 @@ input:focus {
 main {
     height: 100vh;
     display: flex;
-    background-color: #f9f9f9;
+    background-color: white;
     margin-top: 60px;
     height: calc(100vh - 60px);
 }
@@ -184,8 +184,7 @@ main {
 .thumbnail {
     width: 100%;
     margin-bottom: 10px;
-    /* why this doesnt work? */
-    border-radius: 50px;
+ 
 }
 
 .thumbnail img {
@@ -207,6 +206,9 @@ main {
 @media (max-width: 768px) {
     .side-bar {
         display: none;
+    }
+    .mainsection {
+        margin-left: 10px;
     }
 
 }
