@@ -1,0 +1,43 @@
+header {
+    background-color: rgb(29, 170, 142);
+    height: 40px;
+}
+
+#burger-menu {
+    display: none;
+    cursor: pointer;
+    color: white;
+    margin: 10px;
+    font-variation-settings:
+    'FILL' 1,
+    'wght' 700,
+    'GRAD' 0,
+    'opsz' 48
+    
+}
+.menu {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    width: 600px;
+    margin: auto;
+    padding: 10px;
+}
+.menu a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+.menu a:hover {
+    color: rgb(235, 122, 9);
+}
+
+@media (max-width: 768px) {
+    .menu {
+        display: none;
+    }   
+    #burger-menu { 
+    display: inline;
+    }
+}
