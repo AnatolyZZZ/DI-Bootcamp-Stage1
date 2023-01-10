@@ -164,7 +164,9 @@ main {
 
 .video:hover {
     cursor: pointer;
+    transform-origin: top left;
     transform: scale(1.2);
+
     z-index: 2;
 }
 
